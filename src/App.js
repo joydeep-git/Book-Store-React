@@ -2,11 +2,11 @@ function App() {
   return (
     <>
     <h1>Welcome </h1>
-    <greeting/>
+    <Message/>
     </>
   );
 }
-const message = function(){
+const Message = function(){
   return <>
   <h4>How are you guys?</h4>
   </>
