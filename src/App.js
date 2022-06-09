@@ -1,15 +1,13 @@
-function App() {
-  return (
-    <>
-    <h1>Welcome </h1>
-    <Message/>
-    </>
-  );
-}
-const Message = function(){
-  return <>
-  <h4>How are you guys?</h4>
-  </>
-}
+import Book from "./component/Book";
+import './App.css'
 
+
+const App = function(){
+  return(
+    <>
+    <h1>Hello React</h1>
+    <Book />
+    </>
+  )
+}
 export default App;
