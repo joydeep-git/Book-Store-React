@@ -18,12 +18,7 @@ const Book = () => {
 
         </article>
     );
-
-    //     return(
-    //         <div>
-    //             <h3>React JavaScript</h3>
-    //         </div>
-    //     )
+    
 };
 
 export default Book;
