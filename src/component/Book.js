@@ -1,19 +1,28 @@
 import React from "react";
 
 const Book = () => {
+    const image =
+        "https://images-us.bookshop.org/ingram/9781612680194.jpg?height=250&v=v2";
+    const title = "Rich Dad Poor Dad";
+    const price = "₹199";
 
-    const image = 'https://m.media-amazon.com/images/I/817clKAKcqL._AC_UY218_.jpg';
-    const title = 'Redmi 10 Prime (Phantom Black 4GB RAM 64GB)';
-    const price = '₹11500';
-    
+    return (
+        <article className="books">
 
+            <div className="book-image">
+                <img src={image} alt={title} />
+            </div>
+            <h2 className="book-title">{title}</h2>
+            <h4 className="book-price">{price}</h4>
 
-//     return(
-//         <div>
-//             <h3>React JavaScript</h3>
-//         </div>
-//     ) 
-}
+        </article>
+    );
 
+    //     return(
+    //         <div>
+    //             <h3>React JavaScript</h3>
+    //         </div>
+    //     )
+};
 
 export default Book;

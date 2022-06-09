@@ -4,10 +4,10 @@ import './App.css'
 
 const App = function(){
   return(
-    <>
-    <h1>Hello React</h1>
+    <section className="bookstore"> 
+    <h1 className="bookstore-title">Bookstore.org</h1>
     <Book />
-    </>
+    </section>
   )
 }
 export default App;
