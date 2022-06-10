@@ -43,18 +43,21 @@ body {
     padding: 0.5rem;
     flex-wrap: wrap;
 }
+.book-price {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
 .book button {
-    padding: 0.5rem;
     text-align: center;
     font-size: 1.3rem;
+    padding: 0.5rem;
     cursor: pointer;
     background-color: rgb(0, 0, 0);
     border:none;
     border-radius: 10px;
     color: rgb(255, 255, 255);
 }
-.book button:hover{
-    color: black;
-    background-color:rgb(250, 177, 177);
-    transition: 0.5s;
+.book button :hover{
+    background-color: rgb(184, 184, 184);
+    
 }
