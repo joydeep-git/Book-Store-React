@@ -1,10 +1,6 @@
 import React from "react";
 
 const Book = () => {
-    const image =
-        "https://images-us.bookshop.org/ingram/9781612680194.jpg?height=250&v=v2";
-    const title = "Rich Dad Poor Dad";
-    const price = "₹199";
 
     return (
         <article className="book">
