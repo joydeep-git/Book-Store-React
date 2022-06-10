@@ -35,6 +35,8 @@ body {
     border-radius: 5px;
 }
 .book-image img{
+    width: 10rem;
+    height: 13rem;
     border-radius: 10px;
     object-fit: contain;
 }

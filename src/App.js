@@ -5,15 +5,27 @@ import './App.css'
 const App = function () {
 
   const firstBook ={
-    image: 'images-us.bookshop.org/ingram/9781612680194.jpg?height=250&v=v2';
-    title: 'Rich Dad Poor Dad';
-    price: '₹199';
+    image: 'https://wallpapercave.com/wp/wp6668685.jpg',
+    title: 'Rich Dad Poor Dad',
+    price: '₹199',
   }
 
   const secondBook = {
-    image: 'https://images-us.bookshop.org/ingram/9780062315007.jpg?height=500&v=v2';
-    title:'The Alchemist';
-    price: '₹220';
+    image: 'https://c7.alamy.com/comp/3/2e0bd0698ea94ad086f87cdbe137b5b4/gn8awy.jpg',
+    title:'The Alchemist' ,
+    price: '₹220',
+  }
+
+  const thirdBook = {
+    image: 'https://wallpapercave.com/wp/wp6668685.jpg',
+    title: 'Rich Dad Poor Dad',
+    price: '₹199',
+  }
+
+  const fourthBook = {
+    image: 'https://c7.alamy.com/comp/3/2e0bd0698ea94ad086f87cdbe137b5b4/gn8awy.jpg',
+    title:'The Alchemist' ,
+    price: '₹220',
   }
 
   return (
@@ -21,16 +33,25 @@ const App = function () {
       <h1 className="bookstore-title">Bookstore.org</h1>
       <section className="bookstore">
 
-    <div className="book">
         <Book 
         image={firstBook.image}
         title={firstBook.title}
         price={firstBook.price}/>
+
         <Book 
         image={secondBook.image}
         title={secondBook.title}
         price={secondBook.price}/>
-        </div>
+
+        <Book 
+        image={thirdBook.image}
+        title={thirdBook.title}
+        price={thirdBook.price}/>
+
+        <Book 
+        image={fourthBook.image}
+        title={fourthBook.title}
+        price={fourthBook.price}/>
 
       </section>
     </section>
