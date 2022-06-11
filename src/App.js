@@ -43,7 +43,7 @@ const App = function () {
         title={secondBook.title}
         price={secondBook.price}/>
 
-        <Book 
+        {/* <Book 
         image={thirdBook.image}
         title={thirdBook.title}
         price={thirdBook.price}/>
@@ -51,7 +51,7 @@ const App = function () {
         <Book 
         image={fourthBook.image}
         title={fourthBook.title}
-        price={fourthBook.price}/>
+        price={fourthBook.price}/> */}
 
       </section>
     </section>
